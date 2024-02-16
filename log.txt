@@ -1,0 +1,138 @@
+2024-02-16 00:17:06 UTC
+Linux-6.6.10-76060610-generic-x86_64-with-glibc2.35
+Ren'Py 8.2.0.24012702
+
+Early init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.05s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'RENOIR (radeonsi, renoir, LLVM 15.0.7, DRM 3.54, 6.6.10-76060610-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 23.3.2-1pop0~1704238321~22.04~36f1d0e'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+gui.rpy
+gui.rpyc
+options.rpy
+options.rpyc
+screens.rpy
+screens.rpyc
+script.rpy
+script.rpyc
+saves/navigation.json
+saves/persistent
+gui/bubble.png
+gui/frame.png
+gui/game_menu.png
+gui/main_menu.png
+gui/namebox.png
+gui/notify.png
+gui/nvl.png
+gui/skip.png
+gui/textbox.png
+gui/thoughtbubble.png
+gui/window_icon.png
+gui/slider/horizontal_hover_bar.png
+gui/slider/horizontal_hover_thumb.png
+gui/slider/horizontal_idle_bar.png
+gui/slider/horizontal_idle_thumb.png
+gui/slider/vertical_hover_bar.png
+gui/slider/vertical_hover_thumb.png
+gui/slider/vertical_idle_bar.png
+gui/slider/vertical_idle_thumb.png
+gui/button/check_foreground.png
+gui/button/check_selected_foreground.png
+gui/button/choice_hover_background.png
+gui/button/choice_idle_background.png
+gui/button/hover_background.png
+gui/button/idle_background.png
+gui/button/quick_hover_background.png
+gui/button/quick_idle_background.png
+gui/button/radio_foreground.png
+gui/button/radio_selected_foreground.png
+gui/button/slot_hover_background.png
+gui/button/slot_idle_background.png
+gui/phone/nvl.png
+gui/phone/textbox.png
+gui/phone/slider/horizontal_hover_bar.png
+gui/phone/slider/horizontal_hover_thumb.png
+gui/phone/slider/horizontal_idle_bar.png
+gui/phone/slider/horizontal_idle_thumb.png
+gui/phone/slider/vertical_hover_bar.png
+gui/phone/slider/vertical_hover_thumb.png
+gui/phone/slider/vertical_idle_bar.png
+gui/phone/slider/vertical_idle_thumb.png
+gui/phone/button/check_foreground.png
+gui/phone/button/check_selected_foreground.png
+gui/phone/button/choice_hover_background.png
+gui/phone/button/choice_idle_background.png
+gui/phone/button/hover_background.png
+gui/phone/button/idle_background.png
+gui/phone/button/radio_foreground.png
+gui/phone/button/radio_selected_foreground.png
+gui/phone/button/slot_hover_background.png
+gui/phone/button/slot_idle_background.png
+gui/phone/overlay/game_menu.png
+gui/phone/overlay/main_menu.png
+gui/phone/scrollbar/horizontal_hover_bar.png
+gui/phone/scrollbar/horizontal_hover_thumb.png
+gui/phone/scrollbar/horizontal_idle_bar.png
+gui/phone/scrollbar/horizontal_idle_thumb.png
+gui/phone/scrollbar/vertical_hover_bar.png
+gui/phone/scrollbar/vertical_hover_thumb.png
+gui/phone/scrollbar/vertical_idle_bar.png
+gui/phone/scrollbar/vertical_idle_thumb.png
+gui/phone/bar/bottom.png
+gui/phone/bar/left.png
+gui/phone/bar/right.png
+gui/phone/bar/top.png
+gui/overlay/confirm.png
+gui/overlay/game_menu.png
+gui/overlay/main_menu.png
+gui/scrollbar/horizontal_hover_bar.png
+gui/scrollbar/horizontal_hover_thumb.png
+gui/scrollbar/horizontal_idle_bar.png
+gui/scrollbar/horizontal_idle_thumb.png
+gui/scrollbar/vertical_hover_bar.png
+gui/scrollbar/vertical_hover_thumb.png
+gui/scrollbar/vertical_idle_bar.png
+gui/scrollbar/vertical_idle_thumb.png
+gui/bar/bottom.png
+gui/bar/left.png
+gui/bar/right.png
+gui/bar/top.png
+tl/None/common.rpym
+tl/None/common.rpymc
+cache/bytecode-39.rpyb
+cache/py3analysis.rpyb
+cache/screens.rpyb
+cache/shaders.txt
