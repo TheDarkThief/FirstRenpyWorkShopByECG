@@ -24,9 +24,17 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    n "Niel I'm niel legstrong"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    s "I'm shák-sper"
+
+    z "I'm alien and I'm here to kill Niel Legstrong"
+#     python:
+#         for i in range(1, 100):
+#             message
+#     e "You've created a new Ren'Py game."
+#
+#     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
 
