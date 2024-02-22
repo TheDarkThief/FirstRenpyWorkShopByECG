@@ -2,3 +2,5 @@ game/cache
 log.txt
 .idea/
 *.iml
+.history/
+.vscode/
