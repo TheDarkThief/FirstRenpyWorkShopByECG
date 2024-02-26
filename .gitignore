@@ -5,3 +5,4 @@ log.txt
 *.rpyc
 .history/
 .vscode/
+log.txt
