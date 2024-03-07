@@ -15,11 +15,11 @@ label helpingLegstrong:
         #    menu:
         #        "Join Legstrong":
         #        n "Wonderful! "
-        menu:
-            "No":
-                n "No?! What you mean we're a dream team. The bad guys must be stopped and you're THE person for that.
-                You have NO choice but to join me."
-                jump stop_alien
+    menu:
+        "No":
+            n "No?! What you mean we're a dream team. The bad guys must be stopped and you're THE person for that.
+            You have NO choice but to join me."
+            jump stop_alien
 
         "Yes":
             n "You're a win, lets beat them sarge. For the world it is!"
@@ -39,7 +39,7 @@ label stop_alien:
 label machine_on:
     show legstrong
     n "You turned on the machine anyways. Hm. You're an interesting person"
-    jump blowup_moon.
+    jump blowup_moon
 
 label blowup_moon:
     pass
