@@ -1,6 +1,8 @@
 default plannotdiscussed = False
 
-label teamwithalien:
+label alienteamup:
+    scene alienlairscene
+    show drzorgoloran
     z "Juan Carlos, is that you?"
     menu:
         "Yes":
@@ -9,8 +11,14 @@ label teamwithalien:
             z "Oh, so who are you?"
             menu: # Feel free to add more people
                 "Barack Obama":
+                    z "We know of your VIP status on earth."
                     z "I'm sorry to waste your time, Mr. President. I will bring you to your house right away."
-                    "Zygaloran returns you to your white house, where you live happily ever after with Michelle."
+                    scene whitehouse
+                    "Zygaloran returns you to your white house"
+                    pause 2
+                    "where you live happily ever after with Michelle..."
+                    show barackandmichelle
+                    pause 2
                     return
                 "Niel Legstrong":
                     z "Don't try to fool me, I just killed Niel Legstrong!"
@@ -67,14 +75,12 @@ label questions:
     # TODO: Remove options after they've been selected?
     menu:
         "Why the moon?":
-            z "Our intelligence says humanity has protected earth with a forcefield, so there's no destroying earth."
-            z "But the moon has been left unprotected! "
+            z "Humanity isn't aware of this, but beneath the thick crust of the moon is a liquid fondue core."
+            z "We could mine the moon, but humanity would notice it too fast, like Niel Legstrong did. That's why he needed to be eliminated"
+            z "So we have to resort to blowing up the moon, and the succulent material can be gathered afterwards. "
             jump questions
         "How are we blowing up the moon??":
-            z "Well, Juan Carlos, we are using an antimatter bomb."
-            z "An antimatter bomb needs a huge amount of energy to ignite."
-            z "Unfortunately, we don't have a lot of energy."
-            z "We are going to make the ultimate sacrifice by flying into the moon while in hyperspace!"
+            z "We are using a moon-blower-up-inator, of course. Starry the Pottypuss won't stop us this time!"
             jump fightorflight
         "Let's a go!":
             jump blowupthemoon
