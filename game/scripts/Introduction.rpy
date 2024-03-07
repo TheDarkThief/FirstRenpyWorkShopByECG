@@ -121,7 +121,7 @@ label searchForHelp:
 
             "This seems to have gotten the attention of the figure, as they soon start to approach."
 
-            show neillegstrong
+            show neil-legstrong
 
             "When this figure approches, there are some things that quickly become apparent."
 
