@@ -1,0 +1,27 @@
+label blowup_moon:
+    play audio "audio/explosion.mp3"
+    scene black
+    show moon-exploding1
+    pause 0.25
+    show moon-exploding2
+    pause 0.25
+    show moon-exploding3
+    pause 0.25
+    show moon-exploding4
+    pause 0.25
+    show moon-exploding5
+    pause 0.25
+    show moon-exploding6
+    pause 0.25
+    show moon-exploding7
+    pause 0.25
+    show moon-exploding8
+    pause 0.25
+    show moon-exploding9
+    pause 0.25
+    show moon-exploding10
+    pause 0.25
+    show moon-exploding11
+    pause 0.25
+    scene moon-explosion-ending
+    pause 30

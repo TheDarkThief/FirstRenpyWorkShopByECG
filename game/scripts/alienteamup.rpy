@@ -1,8 +1,8 @@
 default plannotdiscussed = False
 
 label alienteamup:
-    scene alienlairscene
-    show drzorgoloran
+    scene alien-lair-scene
+    show dr-zorgoloran
     z "Juan Carlos, is that you?"
     menu:
         "Yes":

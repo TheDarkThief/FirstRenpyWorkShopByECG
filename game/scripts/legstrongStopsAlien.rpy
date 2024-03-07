@@ -1,6 +1,6 @@
 #Lyra's Section - help legstrong -> stop aliens plan -> turn on machine anyways
 label helpingLegstrong:
-     show neillegstrong
+     show neil-legstrong
 
      n "Thanks for helping me, every battle should be fought with a soldier like you."
      n "Now that I'm healed, thanks to you, I want YOU to join me in the journey to stopping the alies from blowing up the moon."
@@ -32,12 +32,12 @@ label helpingLegstrong:
                     jump machine_on
 
 label stop_alien:
-    show legstrong
+    show neil-legstrong
     n "I'm so happy you helped me stop the alien. You're a real one."
     jump legstrong_job_offer
 
 label machine_on:
-   show legstrong
+   show neil-legstrong
    n "You turned on the machine anyways. Hm. You're an interesting person"
-   jump blowup_moon.
+   jump blowup_moon
 

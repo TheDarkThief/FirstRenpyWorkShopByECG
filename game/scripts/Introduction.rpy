@@ -20,7 +20,7 @@ label intro:
 
     "After a period of frantic scrambling, you stumble out of the darkness of your ship wreck, taking in your surroundings."
 
-    scene moonbackground
+    scene moon-background
 
     "it seems that you're in the middle of bucktown nowhere, with no immediently convinent way off of this asteroid."
 
@@ -90,7 +90,7 @@ label intro:
                     jump aloneEnding
 
 label searchForHelp:
-    show moonbackground
+    scene moon-background
     
     "You sweep your gaze across the distance, searching every nook and cranny that you come across."
 
@@ -181,7 +181,7 @@ label searchForHelp:
                             jump aloneEnding
 
 label aloneEnding:
-    scene aloneending
+    scene alone-ending
     "Soon after your search begins, a space dust storm pops into being!"
 
     "Your visibility starts to steadidly decline, but you continue your search for help."
