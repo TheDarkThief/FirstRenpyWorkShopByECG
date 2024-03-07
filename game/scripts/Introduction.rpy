@@ -9,7 +9,7 @@
 
     "Stumbling out of the darkness of your ship wreck, you take in your surroundings"
 
-    scene MoonbackGround
+    scene moonbackground
 
     "it seems that you're in the middle of bucktown nowhere, with no immedient way off of the asteroid."
 
@@ -65,7 +65,7 @@
                     jump aloneEnding
 
 label searchForHelp:
-    scene MoonBackground
+    show moonbackground
     
     "You sweep your gaze across the distance, searching every nook and cranny that you come across"
 
@@ -96,7 +96,7 @@ label searchForHelp:
 
             "This seems to have gotten the attention of the figure, as they soon start to approach"
 
-            show NeilLegstrong
+            show neillegstrong
 
             "When this figure approches, there are some things that quickly become apparent."
 
@@ -144,7 +144,7 @@ label searchForHelp:
                             jump aloneEnding
 
 label aloneEnding:
-    scene AloneEnding
+    scene aloneending
     "Soon after your search begins, a space dust storm pops into being!"
 
     "Your visibility starts to steadidly decline, but you continue your search for help."
