@@ -6,7 +6,7 @@ label helpingLegstrong:
      n "Now that I'm healed, thanks to you, I want YOU to join me in the journey to stopping the alies from blowing up the moon."
      n "They must be stopped, and with you on my side, we sure can. What do you say?"
     #  menu:
-        # "No":
+    	# "No":
         #     n "No?! What you mean we're a dream team. The bad guys must be stopped and you're THE person for that"
 
         # "Yes":
@@ -15,8 +15,8 @@ label helpingLegstrong:
         #     menu:
         #         "Join Legstrong":
         #         n "Wonderful! "
-     menu:
-        "No":
+	menu:
+		"No":
             n "No?! What you mean we're a dream team. The bad guys must be stopped and you're THE person for that. \
             You have NO choice but to join me."
             jump stop_alien
