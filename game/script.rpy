@@ -8,8 +8,12 @@
 # The game starts here.
 
 label start:
+<<<<<<< HEAD
+    jump intro
+=======
 
 
+>>>>>>> ad79b59e9e870a3535e415f8c770f61c637dbb43
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
