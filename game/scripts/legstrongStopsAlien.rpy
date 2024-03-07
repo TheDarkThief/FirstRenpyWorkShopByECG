@@ -15,7 +15,7 @@ label helpingLegstrong:
         #     menu:
         #         "Join Legstrong":
         #         n "Wonderful! "
-     menu:
+    menu:
         "No":
             n "No?! What you mean we're a dream team. The bad guys must be stopped and you're THE person for that. \
             You have NO choice but to join me."
