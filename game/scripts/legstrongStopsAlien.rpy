@@ -41,3 +41,5 @@ label machine_on:
     n "You turned on the machine anyways. Hm. You're an interesting person"
     jump blowup_moon.
 
+label blowup_moon:
+    pass
