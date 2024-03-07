@@ -1,6 +1,6 @@
 #Lyra's Section - help legstrong -> stop aliens plan -> turn on machine anyways
 label helpingLegstrong:
-     show legstrong
+     show neillegstrong
 
      n "Thanks for helping me, every battle should be fought with a soldier like you."
      n "Now that I'm healed, thanks to you, I want YOU to join me in the journey to stopping the alies from blowing up the moon."
