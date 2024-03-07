@@ -1,24 +1,41 @@
-﻿label introduction:
+﻿#Caeden's section - Introduction area/setup
+label intro:
 
-    "You are a space explorer named Astrid, and you have unfortunally crashed onto a asteroid in the asteroid belt."
+    "You are a space explorer named Astrid, a brave astronaut epxloring the galaxy for adventure!"
+    
+    "Unfortunatly, your brave exploring has to be put on hold, as you seen to have crashed onto a asteroid."
 
-    "And out of all the asteroids you could have landed on, you managed to land on THE quantum asteroid."
+    "And out of all the asteroids you could have crashed onto, you managed to land on THE quantum asteroid."
 
-    "The quantum asteroid famed for it's unique disregard of the time space contium, with people's personality, 
-    inner narration and apperances being known to change."
+    "The quantum asteroid is famed throughout the galaxy for it's unique disregard of the time space contium."
+    
+    "Reports have stated that people who landed on this asteroid have had their personality, 
+    inner narration, and apperances changed."
 
-    "Stumbling out of the darkness of your ship wreck, you take in your surroundings"
+    'You figure that this phenomonon surely will surely have no impact on you whatsoever.'
 
-    scene MoonbackGround
+    "Right?"
 
-    "it seems that you're in the middle of bucktown nowhere, with no immedient way off of the asteroid."
+    "A intense need to leave your crashed vessel fills your body, so you start looking around for the emergency escape exit."
 
-    "Explorer protocal states that crashedlanded pilots should either repair their broken ship, or get help from the locals."
+    "After a period of frantic scrambling, you stumble out of the darkness of your ship wreck, taking in your surroundings."
 
-    "Turning around and seeing the total destruction of your spaceship, alongside a severe lack of supplies, knocks the repair option
-    of the life. Which leaves getting help as your only valid option."
+    scene moonbackground.png
 
-    "But what is the best of to get help? Should you go searching for people to help you, or should you wait for help to arrive?"
+    "it seems that you're in the middle of bucktown nowhere, with no immediently convinent way off of this asteroid."
+
+    "Explorer protocal clearly states that crashedlanded pilots should either repair their broken ship, or get help from the locals."
+
+    "Turning around and seeing the total destruction of your spaceship, alongside a severe lack of supplies, seems to knock the repair option
+    off the list."
+    
+    "Which leaves getting help as your only true, valid option."
+
+    "But what is the best way to get help?"
+
+    "Should you go searching for people, hoping to find someone who could provide you with supplies and information?"
+
+    "Or should you stay put at your ship, in the hopes that the bright, burning flare that is your ship attracts help."
 
     menu:
         "Search for help":
@@ -36,22 +53,30 @@
             "People surely saw you ship crash onto the astraoid, and leaving the ship just means 
             forsaking their soon to be help."
 
-            "But even as minutes turn to hours, and the hours turn to days, you start to wonder if help is truly going to arrive."
+            "But as the hours tick by, you start to wonder if help is truly going to arrive."
+
+            "Maybe you should leave the ship to find help?"
+
+            "The ship is a kind soul, it will understand."
 
             menu:
-                "search for help":
+                "Search for help":
 
-                    "If people were going to come, they would have been here by now."
+                    "It's been several hours and there is still no sign of help."
 
-                    "You decide that the only way off this asteroid is to get help, so you bid your ship goodbye and start your search."
+                    "If people were going to come, they surely would have come by now."
+
+                    "You decide that the only way off this asteroid is to get help, so you bid your ship a tearful goodbye and walk off to start your search."
 
                     jump searchForHelp
                 
                 "The ship leads to salvation":
+
                     "You and the ship have been partners for as long as you can remember, and if there's anything that can get you off this asteroid, it's
                     the ship's presence."
 
-                    "Don't you remember when you assisted the ship with the dismantlement of the Jupiter Cartel? Or that time t "
+                    "Don't you remember when you assisted the ship with the dismantlement of the Jupiter Cartel? Or that time that the ship started a revolution against
+                    the tyrannical King Louis XXVI?"
 
                     "History has shown that the ship has always had a magnetic personality, and if anything is going to draw help towards you, it's the ship's
                     famous charm."
@@ -65,17 +90,17 @@
                     jump aloneEnding
 
 label searchForHelp:
-    scene MoonBackground
+    scene moonbackground
     
-    "You sweep your gaze across the distance, searching every nook and cranny that you come across"
+    "You sweep your gaze across the distance, searching every nook and cranny that you come across."
 
-    "After one of your routine sweeping gazes, you see what seems to be a figure in the distance"
+    "After one of your routine sweeping gazes, you see what appears to be a figure in the distance."
 
     "This figure could be your way off of this asteroid."
 
     "However, It doesn't seem like the figure has spotten you yet, so it would still possible to sneak away."
 
-    "After a moment of thinking, you come to a decision"
+    "After a moment of thinking, you come to a decision."
 
     menu:
         "Stay away from figure":
@@ -92,59 +117,71 @@ label searchForHelp:
 
         "Wave the figure over":
             
-            "There's no way off this asteroid without gathering help, so you wave your arms and call out to the figure"
+            "There's no way off this asteroid without gathering help, so you wave your arms and call out to the figure."
 
-            "This seems to have gotten the attention of the figure, as they soon start to approach"
+            "This seems to have gotten the attention of the figure, as they soon start to approach."
 
-            show NeilLegstrong
+            show neillegstrong
 
             "When this figure approches, there are some things that quickly become apparent."
 
             "The man has the strongest pair of legs that you have ever seen on any living creature, and he seems completly
-            as ease without a helmet in space"
+            as ease without a helmet in space."
 
-            "while you study the man, wishing that your scouter was not destroyed in the crash, the man gets close enough to talk"
+            "You suddenly wish that you grabbed your scouter before leaving the ship. The man's power level must be at least
+            9000."
+
+            "During the time that you spent pondering the man's power level, the man seems to have gotten close enough to talk to you."
 
             n "I'm surpised to find another soul on this desolate asteroid, but I'm always happy to find a 
             new friend."
 
-            n "My name is Neil Legstrong, and I'm happy to make your acquaintance"
+            n "My name is Neil Legstrong, and I'm happy to make your acquaintance."
 
             n "What about you and I join together to find a way of this asteroid? I do have a little errand
-            to run, but I'm sure it won't be much of a hassle" 
+            to run, but I'm sure it won't be much of a hassle." 
 
             menu:
                 "Go with armstrong":
-                    "There is something about Legstrong that excudes trust and confidence, and you
-                    get the sense that this man won't lead to astray"
 
-                    "You decide that you should stick with Legstrong for the time being"                
+                    "There is something about Legstrong that excudes trust and confidence."
+                    
+                    "You are given the sense that this man would never lead to astray."
+
+                    "With these thoughts in the back of your head, you decide that you should stick with Legstrong for the time being."                
 
                     #Leads to landing craft repair
 
                 "Don't go with him":
+
                     "Something about this man immediently sets you at ease. He seems like someone you could instintually trust."
 
                     "However, paradoxically, the suddenness of trust that you feel towards legstrong immmediently makes you distrust him"
 
-                    "You start to back away from Neil Legstrong"
+                    "You start to back away from Neil Legstrong."
 
                     n "Ah... I suppose that means that you don't want to join up with me?"
 
                     menu:
-                        "go with armstrong":
-                            "While reluctant to go armstrong, you bregrungingly agree to join forces for the time being"
+                        "Go with armstrong":
+                            "While reluctant to go armstrong, you bregrungingly agree to join forces for the time being."
+
                             #Leads to landing craft repair
 
                         "No":
                             n "Well, I guess this is where we part ways, I wish you luck on your search."
 
-                            "You quickly head away from legstrong, and resume your search for help."
+                            hide neillegstrong
+
+                            "You start to walk away from armstrong, resuming your search for an another source of help"
+
+                            "Maybe this time you'll find someone a little less trustworthy."
+
 
                             jump aloneEnding
 
 label aloneEnding:
-    scene AloneEnding
+    scene aloneending
     "Soon after your search begins, a space dust storm pops into being!"
 
     "Your visibility starts to steadidly decline, but you continue your search for help."
