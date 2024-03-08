@@ -150,7 +150,7 @@ label searchForHelp:
 
                     "With these thoughts in the back of your head, you decide that you should stick with Legstrong for the time being."                
 
-                    #Leads to landing craft repair
+                    jump goWithArmstrong
 
                 "Don't go with him":
 
@@ -166,12 +166,12 @@ label searchForHelp:
                         "Go with armstrong":
                             "While reluctant to go armstrong, you bregrungingly agree to join forces for the time being."
 
-                            #Leads to landing craft repair
+                            jump goWithArmstrong
 
                         "No":
                             n "Well, I guess this is where we part ways, I wish you luck on your search."
 
-                            hide neillegstrong
+                            hide neil-legstrong
 
                             "You start to walk away from armstrong, resuming your search for an another source of help"
 
@@ -197,3 +197,38 @@ label aloneEnding:
     "Lost and Alone Ending"
 
     return
+
+label goWithArmstrong:
+    scene moonbackground
+
+    "You and armstrong wander into the wastes, and with legstrong's guidance, find a wrecked toyota brand landing craft"
+
+    scene landingcraftbackground
+    
+    "Armstrong is a master mechanic! He quickly repairs the the landing craft, and you guys continue on your merry way!"
+
+    "You and armstrong speed past your surroundings, going towards the errand that Armstrong wants to carry out"
+
+    "You confront the alien"
+
+    menu:
+        "Join the Alien":
+
+            "The Alien made a pretty convincing argument"
+
+            "Why shouldn't the moon be blown up?"
+
+            "Aside from being solely responsible for the earth's waves, what has the moon done for humanity?"
+
+            "You and the alien quickly beat up legstrong, and legstrong is quickly defeated"
+
+            jump alienteamup
+        "Join Armstrong":
+
+            "You and legstrong have been through so much together."
+
+            "Even if you only met the man a half hour ago, the bond that you have formed in that time is unbreakable."
+
+            "You and armstrong easily beat up the alien with your combined might."
+
+            jump helpingLegstrong
