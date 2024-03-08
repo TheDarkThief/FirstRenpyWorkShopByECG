@@ -1,5 +1,7 @@
 default plannotdiscussed = False
-
+image alien-lair-scene = Image("Images/scenes/alien-lair-scene.png")
+image barackandmichelle = Image("Images/characters/BarackAndMichelle.png")
+image whitehouse = Image("Images/scenes/WhiteHouse.png")
 label alienteamup:
     scene alien-lair-scene
     show dr-zorgoloran
@@ -112,9 +114,7 @@ label blowupthemoon:
     "2"
     "1"
     "Big flash on screen! Not anticlimactic!!! Animation of moon blowing up"
-    # TODO Animation of moon blowing up
-    # TODO big flahs on screen
-    # TODO implement automatic countdown
+    jump blowup_moon
     return
 
 

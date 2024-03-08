@@ -1,4 +1,8 @@
-﻿#Caeden's section - Introduction area/setup
+﻿image moon-background = Image("Images/scenes/moon-background.png")
+image landingcraftbackground = Image("Images/scenes/moon-background.png")
+image alone-ending = Image("Images/scenes/alone-ending.png")
+
+#Caeden's section - Introduction area/setup
 label intro:
 
     "You are a space explorer named Astrid, a brave astronaut epxloring the galaxy for adventure!"
@@ -199,7 +203,7 @@ label aloneEnding:
     return
 
 label goWithArmstrong:
-    scene moonbackground
+    scene moon-background
 
     "You and armstrong wander into the wastes, and with legstrong's guidance, find a wrecked toyota brand landing craft"
 

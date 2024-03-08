@@ -1,10 +1,11 @@
 # QueenInk's Section - space agency or vegas arc
-
+image alienlairscene = Image("Images/scenes/alien-lair-scene.png")
+image happyvegasending = Image("Images/scenes/happy-vegas-ending.png")
 label legstrong_job_offer:
     ## helped legstrong stop the alien's plan, and DIDN't turn on the machine
 
     scene alienlairscene
-    show neillegstrong
+    show neil-legstrong
 
     n "Thank you for helping me stop the moon from exploding."
     n "You seem like a capable operative."
@@ -23,7 +24,7 @@ label legstrong_job_offer:
 label join_legstrong_first_no:
 
         scene alienlairscene
-        show neillegstrong
+        show neil-legstrong
 
         n "Are you sure? We're fighting to rid the galaxy of the Pinkertons, my old employer."
         n "They need to be stopped before they are the next corporate overlords."
@@ -40,12 +41,12 @@ label join_legstrong_first_no:
 label joined_legstrong_organization:
     # YES = you join a rebel organization trying to overthrow space pinkertons.
     scene joinlegstrongending
-    show neillegstrong
+    show neil-legstrong
     n "Thank you for helping stop the Pinkerton Agency and destroying their influence throughout space."
     return
 
 label legstrong_vegas:
-    show neillegstrong
+    show neil-legstrong
     scene happyvegasending
     n "Welcome to Space Vegas! Don't drink too much here, you never know where you'll end up."
     return

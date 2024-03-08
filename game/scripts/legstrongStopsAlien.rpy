@@ -47,7 +47,7 @@ label stop_alien:
     jump legstrong_job_offer
 
 label machine_on:
-    show legstrong
+    show neil-legstrong
     n "You turned on the machine anyways. Hm. You're an interesting person"
     jump blowup_moon
 
